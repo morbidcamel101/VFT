@@ -48,7 +48,7 @@
         return bellResults;
     }
 
-    @EntryPoint()
+    //@EntryPoint()
     operation RunWormholeExperiment() : Unit {
         let results = EntanglementSwappingExperiment();
         Message($"Results of the Bell test on A2 and B2: {results}");

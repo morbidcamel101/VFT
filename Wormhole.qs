@@ -147,19 +147,21 @@
         if (verbose) {
             Message("Creating the spaced-out wormhole structure...");
         }
+
         for i in 0..Length(qubits)-2 {
             H(qubits[i]);
-            //CNOT(qubits[i], qubits[i + 1]);
+            CNOT(qubits[i], qubits[i + 1]);
             if (phase > 0.0) {
                 Rz(phase, qubits[i + 1]);
             }   
         }
+
         // entangle all of them
-        for i in 0..Length(qubits)-2 {
-            for j in i+1..Length(qubits)-1 {
-                CNOT(qubits[i], qubits[j]);
-            }
-        }
+        //for i in 0..Length(qubits)-2 {
+        //    for j in i+1..Length(qubits)-1 {
+        //        CNOT(qubits[i], qubits[j]);
+        //    }
+        //}
 
         if (verbose) {
             Message("Spaced-out wormhole structure created.");
