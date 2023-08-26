@@ -24,9 +24,6 @@
             if (result == One) {
                 set deltaEstimate += 1.0;
             }
-
-            // Reset the qubit for the next iteration
-            Reset(q);
         }
 
         // Baseline energy is 0.5 for each qubit due to superposition
@@ -53,9 +50,6 @@
             if (result == One) {
                 set deltaEstimate += 1.0;
             }
-
-            // Reset the qubit for the next iteration
-            Reset(q);
         }
 
         // Baseline energy is 0.5 for each qubit due to superposition

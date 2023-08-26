@@ -6,84 +6,84 @@ echo --------------------------------------------
 echo Running Wormholes Experiment...
 echo --------------------------------------------
 
-echo Experiment,Run,Qubits,Layers,Layer,Spin,Phase,FlagPattern,OnesCount,CorrelatedPairs,V,alpha,delta,Vn,alphaN,deltaN > ..\..\..\Experiment\Results\Wormholes.csv
+echo Experiment,Id,Run,Qubits,Layers,Layer,Spin,Phase,FlagPattern,OnesCount,CorrelatedPairs,V,alpha,delta,Vn,alphaN,deltaN > ..\..\..\Experiment\Results\Wormholes.csv
 
 echo Running Experiment #1...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 1 -n 20 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #2...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 2 -n 20 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #3...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 3 -n 20 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #4...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 4 -n 20 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #5...
-VacuumFieldTheory --exp Wormholes -n 10 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 5  -n 10 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #6...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin false --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 6 -n 20 --runs 100 --spin false --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #7...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 7 -n 20 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #8...
-VacuumFieldTheory --exp Wormholes -n 10 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 8 -n 10 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #9...
-VacuumFieldTheory --exp Wormholes -n 10 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 9 -n 10 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #10...
-VacuumFieldTheory --exp Wormholes -n 10 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 10 -n 10 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 pause
 
 echo Running Experiment #11...
-VacuumFieldTheory --exp Wormholes -n 10 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 11 -n 10 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #12...
-VacuumFieldTheory --exp Wormholes -n 20 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 12 -n 20 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #13...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 13 -n 25 --runs 100 --spin false --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #14...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 14 -n 25 --runs 100 --spin true --phase 0 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #15...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 15 -n 25 --runs 100 --spin false --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #16...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 16 -n 25 --runs 100 --spin true --phase 0.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #17...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin false --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 17 -n 25 --runs 100 --spin false --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #18...
-VacuumFieldTheory --exp Wormholes -n 25 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 18 -n 25 --runs 100 --spin true --phase 1 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 echo Running Experiment #19...
-VacuumFieldTheory --exp Wormholes -n 15 --runs 100 --spin false --phase 1.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+VacuumFieldTheory --exp Wormholes --id 19 -n 15 --runs 100 --spin false --phase 1.5 --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
 echo --------------------------------------------
 
 pause

@@ -3,7 +3,7 @@
     open Microsoft.Quantum.Intrinsic;
 
     @EntryPoint()
-    operation RunExperiment(exp: String, runs: Int, n: Int, t: Double, spin: Bool,  phase: Double,  layers: Int, verbose: Bool, csv: Bool) : Unit {
+    operation RunExperiment(exp: String, id: Int, runs: Int, n: Int, t: Double, spin: Bool,  phase: Double,  layers: Int, verbose: Bool, csv: Bool) : Unit {
         
         if (!csv) {
             Message("--START OF RUN--");
@@ -20,7 +20,7 @@
             MultiQubitVacuumInteraction(runs, t, n);
         }
         if (exp == "Wormholes") {
-            Wormholes(n, runs, spin, phase, layers, verbose, csv);
+            Wormholes(id, n, runs, spin, phase, layers, verbose, csv);
         }
         if (exp == "EntanglementSwapping") {
             EntanglementSwapping();

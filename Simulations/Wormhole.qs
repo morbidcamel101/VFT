@@ -6,7 +6,7 @@
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
 
-    operation Wormholes(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool, csv: Bool) : Unit {
+    operation Wormholes(id: Int, n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool, csv: Bool) : Unit {
         
         mutable onesData = [0, size = numRuns];
         mutable correlatedPairsData = [0, size = numRuns];
@@ -61,7 +61,7 @@
                 }
                 else {
                     // Experiment,Run,Qubits,Layers,Spin,Phase
-                    Message($"Wormholes,{run},{Length(results)},{layers},{layer},{useSpin},{phase},{flagPattern},{onesCount},{correlatedPairs},{V},{alpha},{delta},{Vn},{alphaN},{deltaN}");
+                    Message($"Wormholes,{id},{run},{Length(results)},{layers},{layer},{useSpin},{phase},{flagPattern},{onesCount},{correlatedPairs},{V},{alpha},{delta},{Vn},{alphaN},{deltaN}");
                 }
 			}
         }
@@ -182,8 +182,7 @@
                 X(qubits[i]);
             }
         }
-    }
-   
+    }  
 
 
     function EqualToOne(result: Result) : Bool {
