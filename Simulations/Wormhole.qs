@@ -32,14 +32,9 @@
                 
                 let numberToEncode = 42; // Example number
                 let dataToEncode = NumberToBoolArray(numberToEncode, n);
-                EncodeData(currentLayerQubits, dataToEncode);
+                //EncodeData(currentLayerQubits, dataToEncode);
 
-                CreateWormholeWithSpacing(currentLayerQubits, phase, verbose);
-                
-                // Optionally introduce spin
-                if (useSpin) {
-                    IntroduceSpin(currentLayerQubits[0], verbose);
-                }       
+                CreateWormholeWithSpacing(currentLayerQubits, phase, useSpin, verbose);
             }
 
             // Measure the lattice
@@ -142,18 +137,33 @@
     }
 
 
-    operation CreateWormholeWithSpacing(qubits: Qubit[], phase: Double, verbose: Bool) : Unit {
+    operation CreateWormholeWithSpacing(qubits: Qubit[], phase: Double, useSpin: Bool,  verbose: Bool) : Unit {
         if (verbose) {
             Message("Creating the spaced-out wormhole structure...");
         }
 
-        for i in 0..Length(qubits)-2 {
+
+        for i in 0..Length(qubits)-1 {
             H(qubits[i]);
-            CNOT(qubits[i], qubits[i + 1]);
-            if (phase > 0.0) {
-                Rz(phase, qubits[i + 1]);
-            }   
+            if (useSpin) {
+                // Optionally introduce spin
+                IntroduceSpin(qubits[i], verbose);
+            }
+    
+            // If it's the last qubit, entangle it with the first qubit
+            if (i == Length(qubits) - 1) {
+                CNOT(qubits[i], qubits[0]);
+                if (phase > 0.0) {
+                    Rz(phase, qubits[0]);
+                }
+            } else {
+                CNOT(qubits[i], qubits[i + 1]);
+                if (phase > 0.0) {
+                    Rz(phase, qubits[i + 1]);
+                }
+            }
         }
+
 
         // entangle all of them
         //for i in 0..Length(qubits)-2 {

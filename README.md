@@ -35,7 +35,7 @@ Let's consider the following key elements:
 
 Given these components, let's craft an equation that could represent the fundamental balance or relationship in VFT:
 
-\[ E_V = \epsilon \times (F + \lambda) \]
+\( E_V = \epsilon \times (F + \lambda) \)
 
 Where:
 - \( E_V \): Total energy attributed to the vacuum field for a given region.
@@ -47,7 +47,9 @@ In this equation, \( E_V \) represents the total energy from the vacuum field in
 
 This is a simplified equation, and in a real-world scenario, creating such an equation would require extensive theoretical groundwork and experimental evidence. The provided equation is a representation based on our previous discussion and is intended for illustrative purposes.
 
-Certainly! The elegance of \( E = mc^2 \) is in its simplicity and choice of universally recognized variables. To create a memorable equation for the Vacuum Field Theory (VFT), let's pick concise symbols that have some intuitive meaning:
+# Special Relativity
+
+To create a memorable equation for the Vacuum Field Theory (VFT), let's pick concise symbols that have some intuitive meaning:
 
 1. \( V \) for Vacuum Energy.
 2. \( \delta \) (Greek letter delta) for the intrinsic vacuum fluctuations. This gives a sense of change or disturbance.
@@ -55,7 +57,7 @@ Certainly! The elegance of \( E = mc^2 \) is in its simplicity and choice of uni
 
 Given these symbols, let's craft a simple yet meaningful equation:
 
-\[ V = \delta + \alpha \]
+\( V = \delta + \alpha \)
 
 Interpreted as: The total energy from the vacuum field (V) is the sum of its intrinsic fluctuations (\( \delta \)) and its interaction strength with particles (\( \alpha \)).
 
@@ -71,21 +73,21 @@ Let's try to link the two.
 
 Assuming the energy of an object, when combined with the vacuum, gets an additional contribution from its interaction with the vacuum, we could rewrite the energy as:
 
-\[ E = mc^2 + V \]
+\( E = mc^2 + V \)
 
 Substituting for \( V \):
 
-\[ E = mc^2 + \delta + \alpha \]
+\( E = mc^2 + \delta + \alpha \)
 
 Now, if we want to explore a situation where the mass of the object itself is influenced by its interaction with the vacuum (a novel idea in this exercise), we might propose:
 
-\[ m' = m + \alpha \]
+\( m' = m + \alpha \)
 
 Where \( m' \) represents the "effective mass" of an object considering its interaction with the vacuum. The term \( \alpha \) here captures the potential added (or reduced) mass effect due to interaction with the vacuum. 
 
 Substituting this into Einstein's equation:
 
-\[ E' = m'c^2 = (m + \alpha)c^2 \]
+\( E' = m'c^2 = (m + \alpha)c^2 \)
 
 Where \( E' \) is the effective energy when accounting for vacuum interactions.
 

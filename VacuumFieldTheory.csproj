@@ -21,6 +21,18 @@
     <Content Include="Experiment\Results\Wormholes_10.txt" />
     <Content Include="Experiment\Results\Wormholes_11.txt" />
     <Content Include="Experiment\Results\Wormholes_12.txt" />
+    <Content Include="Experiment\Results\Wormholes_13.txt" />
+    <Content Include="Experiment\Results\Wormholes_14.txt" />
+    <Content Include="Experiment\Results\Wormholes_15.txt" />
+    <Content Include="Experiment\Results\Wormholes_16.txt" />
+    <Content Include="Experiment\Results\Wormholes_17.txt" />
+    <Content Include="Experiment\Results\Wormholes_18.txt" />
+    <Content Include="Experiment\Results\Wormholes_19.txt" />
+    <Content Include="Experiment\Results\Wormholes_20.txt" />
+    <Content Include="Experiment\Results\Wormholes_21.txt" />
+    <Content Include="Experiment\Results\Wormholes_22.txt" />
+    <Content Include="Experiment\Results\Wormholes_23.txt" />
+    <Content Include="Experiment\Results\Wormholes_24.txt" />
   </ItemGroup>
 
   <ItemGroup>

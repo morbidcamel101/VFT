@@ -1,6 +1,6 @@
 @echo off
 REM This batch file runs the Vacuum Field Theory experiments
-REM from debug dir -> ..\..\..\Experiment\Wormholes.bat
+REM from debug dir -> ..\..\..\Experiment\Wormholes.bat -. C:\Projects\VFT\bin\Debug\net6.0>..\..\..\Experiment\Wormholes.bat
 
 echo --------------------------------------------
 echo Running Wormholes Experiment...
