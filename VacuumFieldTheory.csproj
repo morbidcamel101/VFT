@@ -27,6 +27,7 @@
     <None Include="Experiment\Analysis\Wormholes2.md" />
     <None Include="Experiment\VacuumShielding.bat" />
     <None Include="Experiment\Wormholes.bat" />
+    <None Include="README.md" />
   </ItemGroup>
 
 </Project>
