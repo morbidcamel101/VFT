@@ -1,204 +1,204 @@
 --START OF RUN--
 ---------------------------------------------- 1 / 100
-1 | qubit 19:        XX  XXXXXXX   |
+1 | qubit 19: X X  XX XX XXX  XXXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 2 / 100
-1 | qubit 19:  X XXX       XX    X |
+1 | qubit 19:   X X  XXXX XXX  XXX | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 3 / 100
-1 | qubit 19:  XXXX XX   XX    XX  |
+1 | qubit 19:     XX XXXXXX   X X  | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 4 / 100
-1 | qubit 19: X   X     XXX      X |
+1 | qubit 19:  XX  X  XXXX  XXX X  | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 5 / 100
-1 | qubit 19: XXXXX XXXXXXX XXXX   |
+1 | qubit 19:      X   XX   XX X X | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 6 / 100
-1 | qubit 19: XXX  X X X X XXXXX   |
+1 | qubit 19: XX XX XXX X XXX  XXX | V(1.7) = a(1) + d(0.7) 
 ---------------------------------------------- 7 / 100
-1 | qubit 19: XX XXX  X XX  X XX   |
+1 | qubit 19: XX  X XXX XXX XXXXXX | V(1.75) = a(1) + d(0.75) 
 ---------------------------------------------- 8 / 100
-1 | qubit 19:     XX    X  X X X X |
+1 | qubit 19: XX X  XX X XX  XXXXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 9 / 100
-1 | qubit 19:   X X  X XXX XX    X |
+1 | qubit 19:   X X  X X X X  XX X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 10 / 100
-1 | qubit 19: XX  XXX  XXXXX  XXXX |
+1 | qubit 19: XX  XX XXX   XXX XXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 11 / 100
-1 | qubit 19: XX  XX      X      X |
+1 | qubit 19:  XX X    XXX XXX XXX | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 12 / 100
-1 | qubit 19:            XX  XX XX |
+1 | qubit 19:   X X XXX X XX    XX | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 13 / 100
-1 | qubit 19:       XXXX XXX XX  X |
+1 | qubit 19:   XX  X X X X  X X X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 14 / 100
-1 | qubit 19:       X XXXXX XX  X  |
+1 | qubit 19: XXXXXX  XXXX  X  X X | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 15 / 100
-1 | qubit 19:  XX  XX  XX XX XXXXX |
+1 | qubit 19:  X   X     XX XXXX X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 16 / 100
-1 | qubit 19: X  XX    X X XX  X X |
+1 | qubit 19: X   XXX   XX X    X  | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 17 / 100
-1 | qubit 19:  X  X  X  X  XX XXXX |
+1 | qubit 19: X X XXXXX  X    X  X | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 18 / 100
-1 | qubit 19: XX X XX   XXXXXXXX   |
+1 | qubit 19: XXX XXX XXX XX     X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 19 / 100
-1 | qubit 19:  XX     XXX          |
+1 | qubit 19: X   X XXX XX X  XX   | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 20 / 100
-1 | qubit 19: XXXX XXXXX X XXXXX X |
+1 | qubit 19:   X XX XXX  XX X XX  | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 21 / 100
-1 | qubit 19: XXXXXX XXXXX X  XXX  |
+1 | qubit 19:    XXX X    XX     X | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 22 / 100
-1 | qubit 19: X   X X  X X    X XX |
+1 | qubit 19: XX  XXXX    XX XX  X | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 23 / 100
-1 | qubit 19: X XXX X X XXX  XXXXX |
+1 | qubit 19: XX X    X XX XXXX XX | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 24 / 100
-1 | qubit 19:   X X   X XX  XXX    |
+1 | qubit 19:    X   X  XXX    X   | V(1.3) = a(1) + d(0.3) 
 ---------------------------------------------- 25 / 100
-1 | qubit 19:  XXX  XXX     X X XX |
+1 | qubit 19: X XX   X XX X  X XXX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 26 / 100
-1 | qubit 19:  XX     X X  XXX     |
+1 | qubit 19: X XX X  X    XX XXXX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 27 / 100
-1 | qubit 19: XX X  X XX X XXXX  X |
+1 | qubit 19: X XXX    XX XXXX XXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 28 / 100
-1 | qubit 19:  X  XX X X   X XX XX |
+1 | qubit 19: X X   X XX X XXXXXXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 29 / 100
-1 | qubit 19: X XXX   XX X   XX    |
+1 | qubit 19:  XXXXX X XXXXXX    X | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 30 / 100
-1 | qubit 19: XXX  XXXX X XXX XX   |
+1 | qubit 19:       XX    X X  X   | V(1.25) = a(1) + d(0.25) 
 ---------------------------------------------- 31 / 100
-1 | qubit 19:   X      X    X  X   |
+1 | qubit 19:     XX X  X X XX XX  | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 32 / 100
-1 | qubit 19: XXXXX  XX   X      X |
+1 | qubit 19: XXX    X  X   XX XX  | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 33 / 100
-1 | qubit 19:  XXX X X   X XXX     |
+1 | qubit 19: X X  X X  X  X  X X  | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 34 / 100
-1 | qubit 19: X X  XXXXX  X    XXX |
+1 | qubit 19:   X  X X XX  XXX X   | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 35 / 100
-1 | qubit 19: XXX  XX  XXXX        |
+1 | qubit 19: X  XX XXXX XXXX      | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 36 / 100
-1 | qubit 19: X   X XXX XXX XX XXX |
+1 | qubit 19:  X XX XXX     X X    | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 37 / 100
-1 | qubit 19:   X XXX X   X     XX |
+1 | qubit 19:  X   XXXX XXX X   XX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 38 / 100
-1 | qubit 19:  X   X XXX XXXX X X  |
+1 | qubit 19: XXXXX X X XXXX  XXXX | V(1.75) = a(1) + d(0.75) 
 ---------------------------------------------- 39 / 100
-1 | qubit 19: XXXXX XXXX  XXX  XXX |
+1 | qubit 19: XXX  XX X XXXX  XXXX | V(1.7) = a(1) + d(0.7) 
 ---------------------------------------------- 40 / 100
-1 | qubit 19: X X X XXXX X XX   XX |
+1 | qubit 19: X XX     X XXX XX    | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 41 / 100
-1 | qubit 19: XXXXX     X   XXX  X |
+1 | qubit 19: X XXX       X   X    | V(1.3) = a(1) + d(0.3) 
 ---------------------------------------------- 42 / 100
-1 | qubit 19: XX X     X  X  X X X |
+1 | qubit 19:        X   X X  X XX | V(1.3) = a(1) + d(0.3) 
 ---------------------------------------------- 43 / 100
-1 | qubit 19: X X  XXX X XXXXXX    |
+1 | qubit 19: X X XXXX X  XXX      | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 44 / 100
-1 | qubit 19:  XX X X X XX XX X X  |
+1 | qubit 19: XXX X XXXX    XXXXXX | V(1.7) = a(1) + d(0.7) 
 ---------------------------------------------- 45 / 100
-1 | qubit 19: X  X  X  X X   X   X |
+1 | qubit 19:   XXXX  XXX XXXXX    | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 46 / 100
-1 | qubit 19:    X X X  XX    X    |
+1 | qubit 19: X X X  XX  XXXXXXXX  | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 47 / 100
-1 | qubit 19: XX X X XXXXXXXXX XXX |
+1 | qubit 19: XX  X  XXX  X XXXX X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 48 / 100
-1 | qubit 19: X  X  XX X  X XX   X |
+1 | qubit 19: XXXXXXX X     X  XX  | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 49 / 100
-1 | qubit 19:  X       XX X  XXXX  |
+1 | qubit 19: X   XXXX  XX XX XXX  | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 50 / 100
-1 | qubit 19:    X  X   XX  X  XXX |
+1 | qubit 19: XX  X XX XXX XXX XX  | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 51 / 100
-1 | qubit 19:   X XX   XXXXX  X X  |
+1 | qubit 19: XXX XX   X X X  XX   | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 52 / 100
-1 | qubit 19:  XXXX XXX XX  X  X   |
+1 | qubit 19:  XX XX   XX XXX  X   | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 53 / 100
-1 | qubit 19: XX XX XX  X X    X X |
+1 | qubit 19: X X   XX XX  XXXXX X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 54 / 100
-1 | qubit 19:     X X  X X     XX  |
+1 | qubit 19: X  X X   X X X  XX   | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 55 / 100
-1 | qubit 19: X XXX XXXXX  XXX  XX |
+1 | qubit 19:   X  XXXX XX  XX  XX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 56 / 100
-1 | qubit 19:     X X  X     XXXXX |
+1 | qubit 19:   XX X XX       XX X | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 57 / 100
-1 | qubit 19:  XX    X X X   X  XX |
+1 | qubit 19:     XXXXXX  X XX X   | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 58 / 100
-1 | qubit 19: XX XXX XX   XXX  X   |
+1 | qubit 19:     X  XXXX XXX  X X | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 59 / 100
-1 | qubit 19: X   XX  X XX   XXXX  |
+1 | qubit 19: X XXXXX X XX  X XX   | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 60 / 100
-1 | qubit 19: X XXXXXX  X X   XX   |
+1 | qubit 19:  XXX  X X   XX  X  X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 61 / 100
-1 | qubit 19:  X X X  XXXXX XX XX  |
+1 | qubit 19: X X     X  X XX X  X | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 62 / 100
-1 | qubit 19: XX  X  X XX    XXXX  |
+1 | qubit 19: XXXX X X  XX   X X X | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 63 / 100
-1 | qubit 19:    XXX X X    X  X   |
+1 | qubit 19: XX XX X X X XXXX X X | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 64 / 100
-1 | qubit 19: X X XX  XX  XX XXX   |
+1 | qubit 19:   X       XX  XXX    | V(1.3) = a(1) + d(0.3) 
 ---------------------------------------------- 65 / 100
-1 | qubit 19: XX X X XXX XX XXX    |
+1 | qubit 19:  X  X    XXX XXXX  X | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 66 / 100
-1 | qubit 19: X X XXX      XXX XX  |
+1 | qubit 19: X  XX XXX XX XXX     | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 67 / 100
-1 | qubit 19:  XXX XX X X   X XX   |
+1 | qubit 19: X X   XXXXXX  XX  XX | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 68 / 100
-1 | qubit 19: XXX   X  X XXXX   XX |
+1 | qubit 19: X  XXXX   XX  XXX  X | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 69 / 100
-1 | qubit 19:   X XX  XX  XXX  XX  |
+1 | qubit 19:  X XX XX  X  XX  X   | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 70 / 100
-1 | qubit 19: X X X X   X X     X  |
+1 | qubit 19:  X XX  XXXX XX X X X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 71 / 100
-1 | qubit 19:  X      X XXX     X  |
+1 | qubit 19:  XX       XXX  X XX  | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 72 / 100
-1 | qubit 19: X XX XX X XX XX   XX |
+1 | qubit 19:   XX XXXX X    XX XX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 73 / 100
-1 | qubit 19:   X X XXX X   XXX  X |
+1 | qubit 19: XXX  X   XX X     X  | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 74 / 100
-1 | qubit 19: X XXXX   XXXX X XXX  |
+1 | qubit 19:  XXXXX XX  X         | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 75 / 100
-1 | qubit 19:  XX  X X X XX XX  X  |
+1 | qubit 19: X X    X    XXXXX XX | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 76 / 100
-1 | qubit 19: XX  X    XX X XXXXX  |
+1 | qubit 19:   X  XX XXX X X    X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 77 / 100
-1 | qubit 19: X   XXX XX X XX X  X |
+1 | qubit 19:  XX X    X XXX  X XX | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 78 / 100
-1 | qubit 19:   X XX X XXX  X  XXX |
+1 | qubit 19:  XX       XXX   X XX | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 79 / 100
-1 | qubit 19: XX   XXXX X  X    X  |
+1 | qubit 19:   X X X X X      X X | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 80 / 100
-1 | qubit 19: XX   XXXX  XXXXXX X  |
+1 | qubit 19: XXX  X    X    X X   | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 81 / 100
-1 | qubit 19: X X XX XX XX XX   X  |
+1 | qubit 19: X XXXXX  X    X   XX | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 82 / 100
-1 | qubit 19:    X X XXXX XX   X X |
+1 | qubit 19: XX X    XXXXX  XXXXX | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 83 / 100
-1 | qubit 19:    XXXXXX X X  X     |
+1 | qubit 19:      X XXXX    X   X | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 84 / 100
-1 | qubit 19: XX XXX  XXXX  XX     |
+1 | qubit 19: XXXX        XXXXX XX | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 85 / 100
-1 | qubit 19:    X XXX      X XX X |
+1 | qubit 19:  XXX XXXXXX X X X XX | V(1.7) = a(1) + d(0.7) 
 ---------------------------------------------- 86 / 100
-1 | qubit 19: XX XX XXX X    X   X |
+1 | qubit 19: XXXX XXX  XX X XX  X | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 87 / 100
-1 | qubit 19: X X XX   XX  XXXXX X |
+1 | qubit 19:     XXXXX   XX XXX   | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 88 / 100
-1 | qubit 19:  X X  X XX XX X  X X |
+1 | qubit 19: XXXXX     X X X  X X | V(1.5) = a(1) + d(0.5) 
 ---------------------------------------------- 89 / 100
-1 | qubit 19: XXXX XX XX  X X  XXX |
+1 | qubit 19: XXXXX  XX    XX X X  | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 90 / 100
-1 | qubit 19: X   X X  X XXX  X XX |
+1 | qubit 19: XX  X  X   X   X   X | V(1.35) = a(1) + d(0.35) 
 ---------------------------------------------- 91 / 100
-1 | qubit 19: XX   X X   XX  XXXX  |
+1 | qubit 19:    XXX XX  X X     X | V(1.4) = a(1) + d(0.4) 
 ---------------------------------------------- 92 / 100
-1 | qubit 19:   XXX   XX       XXX |
+1 | qubit 19: X XXXX  XX  XXX X  X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 93 / 100
-1 | qubit 19:  X XXXX XXX   X  XXX |
+1 | qubit 19: X X XXXX  X X X XX X | V(1.6) = a(1) + d(0.6) 
 ---------------------------------------------- 94 / 100
-1 | qubit 19: XXXX   XX  X  X      |
+1 | qubit 19:   X   XXXXX  X  X  X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 95 / 100
-1 | qubit 19:  X XXXX X   XXXXXX X |
+1 | qubit 19:    XXX X  X   X  XXX | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 96 / 100
-1 | qubit 19: XX XXXX  XX X XX     |
+1 | qubit 19:  X   XX XXXX X XX  X | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 97 / 100
-1 | qubit 19:  X X  XXXX  X X   XX |
+1 | qubit 19:  XXX XX   X  X   X X | V(1.45) = a(1) + d(0.45) 
 ---------------------------------------------- 98 / 100
-1 | qubit 19: XX XXX  X   XX X  XX |
+1 | qubit 19:  XXX XX  XX XXXXX X  | V(1.65) = a(1) + d(0.65) 
 ---------------------------------------------- 99 / 100
-1 | qubit 19:        X X  XXX  XX  |
+1 | qubit 19: X XX  X  X XXXXX   X | V(1.55) = a(1) + d(0.55) 
 ---------------------------------------------- 100 / 100
-1 | qubit 19:   XX    X  XXX  XXX  |
+1 | qubit 19: XX XXXX X    XXX X   | V(1.55) = a(1) + d(0.55) 
 ===============================================
 Parameters for the current run:
 Number of qubits (n): 20
@@ -208,7 +208,7 @@ Phase: 0.5
 Number of layers: 1
 Verbose mode: False
 ===============================================
-Average number of Ones over 100 runs: 10.08 with standard deviation: 2.4604064704840947. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
-Average number of correlated neighboring qubit pairs over 100 runs: 9.64 with standard deviation: 2.338888624966995. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+Average number of Ones over 100 runs: 10.35 with standard deviation: 2.210769096943415. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 9.53 with standard deviation: 2.0806489372308827. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
 The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
 --END OF RUN--

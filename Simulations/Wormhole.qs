@@ -76,22 +76,41 @@
 
         if (meanCorrelatedPairs > IntAsDouble(n) / 2.0) {
             Message("The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.");
-        }
+        }        
     }
 
-    function NumberToBoolArray(number: Int, n: Int) : Bool[] {
-        mutable result = [false, size = n];
-        mutable temp = number;
-        for i in 0..n-1 {
-            if (temp % 2 == 1) {
-                set result w/= i <- true;
+    operation CreateWormholeWithSpacing(qubits: Qubit[], phase: Double, useSpin: Bool,  verbose: Bool) : Unit {
+        if (verbose) {
+            Message("Creating the spaced-out wormhole structure...");
+        }
+
+        for i in 0..Length(qubits)-1 {
+            Reset(qubits[i]);
+            H(qubits[i]);
+
+            if (useSpin) {
+                // Optionally introduce spin
+                IntroduceSpin(qubits[i], verbose);
             }
-            set temp /= 2;
+    
+            // If it's the last qubit, entangle it with the first qubit
+            if (i == Length(qubits) - 1) {
+                CNOT(qubits[i], qubits[0]);
+                if (phase > 0.0) {
+                    Rz(phase, qubits[0]);
+                }
+            } else {
+                CNOT(qubits[i], qubits[i + 1]);
+                if (phase > 0.0) {
+                    Rz(phase, qubits[i + 1]);
+                }
+            }
         }
-        return result;
+
+        if (verbose) {
+            Message("Spaced-out wormhole structure created.");
+        }
     }
-
-
 
     operation MeasureWormhole(qubits: Qubit[], layer: Int, verbose: Bool) : (Result[], String) {
         mutable results = [Zero, size = Length(qubits)];
@@ -108,7 +127,8 @@
                 set flagPattern += " ";
             } 
         }
-        Message($"{layer} | qubit {Length(qubits)-1}: {flagPattern} |");
+        let (V, alpha, delta) = MeasureVacuumEnergyNormalized(qubits);
+        Message($"{layer} | qubit {Length(qubits)-1}: {flagPattern} | V({V}) = a({alpha}) + d({delta}) ");
         return (results, flagPattern);
     }
 
@@ -133,47 +153,6 @@
         // Transfer data from the first layer to the second layer
         for i in 0..Length(qubitsLayer1)-1 {
             CNOT(qubitsLayer1[i], qubitsLayer2[i]);
-        }
-    }
-
-
-    operation CreateWormholeWithSpacing(qubits: Qubit[], phase: Double, useSpin: Bool,  verbose: Bool) : Unit {
-        if (verbose) {
-            Message("Creating the spaced-out wormhole structure...");
-        }
-
-
-        for i in 0..Length(qubits)-1 {
-            H(qubits[i]);
-            if (useSpin) {
-                // Optionally introduce spin
-                IntroduceSpin(qubits[i], verbose);
-            }
-    
-            // If it's the last qubit, entangle it with the first qubit
-            if (i == Length(qubits) - 1) {
-                CNOT(qubits[i], qubits[0]);
-                if (phase > 0.0) {
-                    Rz(phase, qubits[0]);
-                }
-            } else {
-                CNOT(qubits[i], qubits[i + 1]);
-                if (phase > 0.0) {
-                    Rz(phase, qubits[i + 1]);
-                }
-            }
-        }
-
-
-        // entangle all of them
-        //for i in 0..Length(qubits)-2 {
-        //    for j in i+1..Length(qubits)-1 {
-        //        CNOT(qubits[i], qubits[j]);
-        //    }
-        //}
-
-        if (verbose) {
-            Message("Spaced-out wormhole structure created.");
         }
     }
 
