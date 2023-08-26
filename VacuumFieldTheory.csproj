@@ -33,12 +33,29 @@
     <Content Include="Experiment\Results\Wormholes_22.txt" />
     <Content Include="Experiment\Results\Wormholes_23.txt" />
     <Content Include="Experiment\Results\Wormholes_24.txt" />
+    <Content Include="Experiment\Results\Wormholes_25.txt" />
+    <Content Include="Experiment\Results\Wormholes_26.txt" />
+    <Content Include="Experiment\Results\Wormholes_27.txt" />
+    <Content Include="Experiment\Results\Wormholes_28.txt" />
+    <Content Include="Experiment\Results\Wormholes_29.txt" />
+    <Content Include="Experiment\Results\Wormholes_30.txt" />
+    <Content Include="Experiment\Results\Wormholes_31.txt" />
+    <Content Include="Experiment\Results\Wormholes_32.txt" />
+    <Content Include="Experiment\Results\Wormholes_33.txt" />
+    <Content Include="Experiment\Results\Wormholes_34.txt" />
+    <Content Include="Experiment\Results\Wormholes_35.txt" />
+    <Content Include="Experiment\Results\Wormholes_36.txt" />
+    <Content Include="Experiment\Results\Wormholes_37.txt" />
+    <Content Include="Experiment\Results\Wormholes_38.txt" />
+    <Content Include="Experiment\Results\Wormholes_39.txt" />
+    <Content Include="Experiment\Results\Wormholes_40.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Experiment\Analysis\Wormholes2.md" />
     <None Include="Experiment\VacuumShielding.bat" />
-    <None Include="Experiment\Wormholes.bat" />
+    <None Include="Experiment\Wormholes2.bat" />
+    <None Include="Experiment\Wormholes1.bat" />
     <None Include="README.md" />
   </ItemGroup>
 

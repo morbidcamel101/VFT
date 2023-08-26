@@ -1,213 +1,214 @@
 --START OF RUN--
 ---------------------------------------------- 1 / 100
-1 | qubit 14:   XXXXXX XX  X  |
+1 | qubit 14: X XX X    XX  X |
 ---------------------------------------------- 2 / 100
-1 | qubit 14:  X    X X   X X |
+1 | qubit 14:  XX X    X X XX |
 ---------------------------------------------- 3 / 100
-1 | qubit 14: X XXX X   X XX  |
+1 | qubit 14: X X  XX    X XX |
 ---------------------------------------------- 4 / 100
-1 | qubit 14:  XXX  XX  X     |
+1 | qubit 14:  X XX           |
 ---------------------------------------------- 5 / 100
-1 | qubit 14: XX XX     XX  X |
+1 | qubit 14:  XX X   X   X   |
 ---------------------------------------------- 6 / 100
-1 | qubit 14: XXX  XX XXX  XX |
+1 | qubit 14: XX X  X XXX X   |
 ---------------------------------------------- 7 / 100
-1 | qubit 14: X XX X XX X X   |
+1 | qubit 14: X    X    XXX X |
 ---------------------------------------------- 8 / 100
-1 | qubit 14:   XX     X XX X |
+1 | qubit 14: X   XXXX   XXX  |
 ---------------------------------------------- 9 / 100
-1 | qubit 14: XX XX  X   XXX  |
+1 | qubit 14: X XXX XXXXX X X |
 ---------------------------------------------- 10 / 100
-1 | qubit 14:  XX XXXX  XXX X |
+1 | qubit 14: X XX   XX XXXX  |
 ---------------------------------------------- 11 / 100
-1 | qubit 14:  X XXX   XX XXX |
+1 | qubit 14: XXXXX   XX X    |
 ---------------------------------------------- 12 / 100
-1 | qubit 14: XX    XX X  XX  |
+1 | qubit 14: X  X XX       X |
 ---------------------------------------------- 13 / 100
-1 | qubit 14:   X X X XX  X   |
+1 | qubit 14: XXXX X  XX XXX  |
 ---------------------------------------------- 14 / 100
-1 | qubit 14: X  X X X XX   X |
+1 | qubit 14: X  X  X  XX X X |
 ---------------------------------------------- 15 / 100
-1 | qubit 14:   X X XX   X X  |
+1 | qubit 14:    XXXXX XXX X  |
 ---------------------------------------------- 16 / 100
-1 | qubit 14:      XXX   X X  |
+1 | qubit 14: X X X  X   XX X |
 ---------------------------------------------- 17 / 100
-1 | qubit 14:   XXXXX XX    X |
+1 | qubit 14:  XXXX XX  XXX X |
 ---------------------------------------------- 18 / 100
-1 | qubit 14:  XX XX  X  X    |
+1 | qubit 14:  X X   X   X    |
 ---------------------------------------------- 19 / 100
-1 | qubit 14:    XX  XXX XX   |
+1 | qubit 14: X  XXXX X X   X |
 ---------------------------------------------- 20 / 100
-1 | qubit 14:  X XXXX XX  X   |
+1 | qubit 14:  XXX X       X  |
 ---------------------------------------------- 21 / 100
-1 | qubit 14: XX  X X X    XX |
+1 | qubit 14:  XX X X X XX XX |
 ---------------------------------------------- 22 / 100
-1 | qubit 14:  XXX XX   XX  X |
+1 | qubit 14: XXX   XXX XX  X |
 ---------------------------------------------- 23 / 100
-1 | qubit 14:  XXXXX X X    X |
+1 | qubit 14:  X  X  XXXX XXX |
 ---------------------------------------------- 24 / 100
-1 | qubit 14: X    XX X  XX   |
+1 | qubit 14: X XX      XX XX |
 ---------------------------------------------- 25 / 100
-1 | qubit 14: XX  X XX XXX  X |
+1 | qubit 14: XX XXX XXX   X  |
 ---------------------------------------------- 26 / 100
-1 | qubit 14:  X XXX X  XXX   |
+1 | qubit 14: X XXXX  XX   X  |
 ---------------------------------------------- 27 / 100
-1 | qubit 14: XXX  X XX XX    |
+1 | qubit 14: XX   XXX XX XXX |
 ---------------------------------------------- 28 / 100
-1 | qubit 14: XX XX   XXX     |
+1 | qubit 14:       X    XX X |
 ---------------------------------------------- 29 / 100
-1 | qubit 14:    XXX  XXXX XX |
+1 | qubit 14:  XXX   XXXXX    |
 ---------------------------------------------- 30 / 100
-1 | qubit 14:    XX X  XXX X  |
+1 | qubit 14:   X    X  XX    |
 ---------------------------------------------- 31 / 100
-1 | qubit 14:  XX         X X |
+1 | qubit 14: X  X    X XX X  |
 ---------------------------------------------- 32 / 100
-1 | qubit 14:   XXX  XXX  X   |
+1 | qubit 14: XX XXXXX  X XX  |
 ---------------------------------------------- 33 / 100
-1 | qubit 14:  XXXXXXXXXX  X  |
+1 | qubit 14:  XX  X  X       |
 ---------------------------------------------- 34 / 100
-1 | qubit 14: X XX XXX X  X X |
+1 | qubit 14:  X  X X   X     |
 ---------------------------------------------- 35 / 100
-1 | qubit 14:     XX X   XX   |
+1 | qubit 14:  XXX XX X XX    |
 ---------------------------------------------- 36 / 100
-1 | qubit 14:   XXX X XXX XX  |
+1 | qubit 14:  XXXX XXX       |
 ---------------------------------------------- 37 / 100
-1 | qubit 14: X X X X   X XX  |
+1 | qubit 14:  XXX X   X X XX |
 ---------------------------------------------- 38 / 100
-1 | qubit 14:   X X   X XXXX  |
+1 | qubit 14: X X   XXXX XX   |
 ---------------------------------------------- 39 / 100
-1 | qubit 14: X X X   X  X    |
+1 | qubit 14: XXXXX  XX XXXX  |
 ---------------------------------------------- 40 / 100
-1 | qubit 14: XXXX X     XXXX |
+1 | qubit 14: X XX XXXX X XXX |
 ---------------------------------------------- 41 / 100
-1 | qubit 14:   X X  XXXXXXX  |
+1 | qubit 14:  XXXXXXX XX  XX |
 ---------------------------------------------- 42 / 100
-1 | qubit 14:  XX XXX         |
+1 | qubit 14:   XXX  X XXXXX  |
 ---------------------------------------------- 43 / 100
-1 | qubit 14:  XXXX XXX XX X  |
+1 | qubit 14: XX X  XX XX XX  |
 ---------------------------------------------- 44 / 100
-1 | qubit 14: X XXX X X X   X |
+1 | qubit 14:     X XX   X    |
 ---------------------------------------------- 45 / 100
-1 | qubit 14: X   X  X  X XX  |
+1 | qubit 14:  XXX XX XXXX  X |
 ---------------------------------------------- 46 / 100
-1 | qubit 14: XXX  XXXX       |
+1 | qubit 14:  XX   X  XXX  X |
 ---------------------------------------------- 47 / 100
-1 | qubit 14: X X   X X XX X  |
+1 | qubit 14: XX  XXX  X XXXX |
 ---------------------------------------------- 48 / 100
-1 | qubit 14: X X        X    |
+1 | qubit 14:  X X   X XXX X  |
 ---------------------------------------------- 49 / 100
-1 | qubit 14:  XXX  X X X   X |
+1 | qubit 14:  X XXX  X XX  X |
 ---------------------------------------------- 50 / 100
-1 | qubit 14: XX XX XX XXXX X |
+1 | qubit 14:   XXXXXX    XXX |
 ---------------------------------------------- 51 / 100
-1 | qubit 14:   X XX  X X  X  |
+1 | qubit 14: XX  X   X X  X  |
 ---------------------------------------------- 52 / 100
-1 | qubit 14:  XX XXX  XX X X |
+1 | qubit 14:  X    X XX X XX |
 ---------------------------------------------- 53 / 100
-1 | qubit 14:   XX XX    XXXX |
+1 | qubit 14: XXX X      XXX  |
 ---------------------------------------------- 54 / 100
-1 | qubit 14: XX     XX X XX  |
+1 | qubit 14: X  XXX   XXXXX  |
 ---------------------------------------------- 55 / 100
-1 | qubit 14: XXXXX XX  X   X |
+1 | qubit 14:   X  XXXXX XX X |
 ---------------------------------------------- 56 / 100
-1 | qubit 14: XXXX  X X  XXX  |
+1 | qubit 14: XXX X   X  XX   |
 ---------------------------------------------- 57 / 100
-1 | qubit 14:  X  XX  XX XXX  |
+1 | qubit 14:  X  XXX X     X |
 ---------------------------------------------- 58 / 100
-1 | qubit 14: XX  X   X  X  X |
+1 | qubit 14: XXXX XX  X X X  |
 ---------------------------------------------- 59 / 100
-1 | qubit 14:   XXXX X XX X X |
+1 | qubit 14:  XX XX XX  X X  |
 ---------------------------------------------- 60 / 100
-1 | qubit 14: XXXX XXX      X |
+1 | qubit 14: X XX X   X    X |
 ---------------------------------------------- 61 / 100
-1 | qubit 14: XXX  X XX XXXX  |
+1 | qubit 14: XX   XXX XXXX X |
 ---------------------------------------------- 62 / 100
-1 | qubit 14: XX X      XXX   |
+1 | qubit 14: XXX  XXX X   XX |
 ---------------------------------------------- 63 / 100
-1 | qubit 14: XXX   XXXX XX X |
+1 | qubit 14: X X   X XXX X   |
 ---------------------------------------------- 64 / 100
-1 | qubit 14:   XXX  X   XXX  |
+1 | qubit 14: X X XXX XXX  X  |
 ---------------------------------------------- 65 / 100
-1 | qubit 14:  X  X X    XX X |
+1 | qubit 14: X X XXX  XXX XX |
 ---------------------------------------------- 66 / 100
-1 | qubit 14: X X XXX XXXXX   |
+1 | qubit 14:  X X  XXXXX     |
 ---------------------------------------------- 67 / 100
-1 | qubit 14:    XX  XX  XX   |
+1 | qubit 14:  XXX X X XXXX X |
 ---------------------------------------------- 68 / 100
-1 | qubit 14: X  XXX   X X  X |
+1 | qubit 14:   X  XXX  XX XX |
 ---------------------------------------------- 69 / 100
-1 | qubit 14: XXXX  XXX XX XX |
+1 | qubit 14: X X X XXXX  X   |
 ---------------------------------------------- 70 / 100
-1 | qubit 14: X  X XXX  XXXXX |
+1 | qubit 14: XXX X X  XXX    |
 ---------------------------------------------- 71 / 100
-1 | qubit 14:  XX XXX  X   X  |
+1 | qubit 14: XXXXX XX  X  X  |
 ---------------------------------------------- 72 / 100
-1 | qubit 14: X X XXX XXX XXX |
+1 | qubit 14: X XXXX X  XX X  |
 ---------------------------------------------- 73 / 100
-1 | qubit 14:    X X  X    X  |
+1 | qubit 14:     XX   X XXX  |
 ---------------------------------------------- 74 / 100
-1 | qubit 14:   X XX XX       |
+1 | qubit 14: XX X     XXX X  |
 ---------------------------------------------- 75 / 100
-1 | qubit 14:  XX X X   X X   |
+1 | qubit 14:    XX X XXXXX   |
 ---------------------------------------------- 76 / 100
-1 | qubit 14: XX X   X  XX XX |
+1 | qubit 14:  X XX X X   XXX |
 ---------------------------------------------- 77 / 100
-1 | qubit 14: X  XXX X  X X X |
+1 | qubit 14: XX  X XXX       |
 ---------------------------------------------- 78 / 100
-1 | qubit 14:       XX  X XX  |
+1 | qubit 14: XX X  XXX   X   |
 ---------------------------------------------- 79 / 100
-1 | qubit 14:  X X X   XX   X |
+1 | qubit 14:  XX XX   X      |
 ---------------------------------------------- 80 / 100
-1 | qubit 14: X XXX  XX XXX X |
+1 | qubit 14:  XX X X    X  X |
 ---------------------------------------------- 81 / 100
-1 | qubit 14:   X       XXX X |
+1 | qubit 14: X     X  X X X  |
 ---------------------------------------------- 82 / 100
-1 | qubit 14: X  X   X X  X X |
+1 | qubit 14:  X XX X X     X |
 ---------------------------------------------- 83 / 100
-1 | qubit 14: XX  X  XX X  X  |
+1 | qubit 14:      XXXX  X X  |
 ---------------------------------------------- 84 / 100
-1 | qubit 14: X X XXX X X X X |
+1 | qubit 14: X X X X  X  X X |
 ---------------------------------------------- 85 / 100
-1 | qubit 14:  XX    XX  XXX  |
+1 | qubit 14:  XXX XXX X  XXX |
 ---------------------------------------------- 86 / 100
-1 | qubit 14:  XXX XXX  XXX   |
+1 | qubit 14: XX   X X  X  XX |
 ---------------------------------------------- 87 / 100
-1 | qubit 14:  X  X  XX       |
+1 | qubit 14: XXX X X X XXXX  |
 ---------------------------------------------- 88 / 100
-1 | qubit 14:  XXX XX XXX     |
+1 | qubit 14: X XX X X X XX X |
 ---------------------------------------------- 89 / 100
-1 | qubit 14:  X    XX X   XX |
+1 | qubit 14: XXX XX  XXXXX   |
 ---------------------------------------------- 90 / 100
-1 | qubit 14: X       XX XXXX |
+1 | qubit 14:    X    X   XX  |
 ---------------------------------------------- 91 / 100
-1 | qubit 14:  X  X X  X X XX |
+1 | qubit 14: XXXX X  X   X X |
 ---------------------------------------------- 92 / 100
-1 | qubit 14:          XX   X |
+1 | qubit 14:   X XX XX  X  X |
 ---------------------------------------------- 93 / 100
-1 | qubit 14:  XXXX  XX   XXX |
+1 | qubit 14:  X XX XXXX X XX |
 ---------------------------------------------- 94 / 100
-1 | qubit 14: XX XX  XXX  XXX |
+1 | qubit 14:   X X X XXX X   |
 ---------------------------------------------- 95 / 100
-1 | qubit 14: X    X XXXX XXX |
+1 | qubit 14: X   X    X   XX |
 ---------------------------------------------- 96 / 100
-1 | qubit 14:  X XX X  X X    |
+1 | qubit 14: X  XXXX XX  XXX |
 ---------------------------------------------- 97 / 100
-1 | qubit 14: XX    X   XXXXX |
+1 | qubit 14: X X       X X X |
 ---------------------------------------------- 98 / 100
-1 | qubit 14:   XX   XXX XXX  |
+1 | qubit 14:    X XX X X     |
 ---------------------------------------------- 99 / 100
-1 | qubit 14: X XX      X X   |
+1 | qubit 14:  X XXXX   X  X  |
 ---------------------------------------------- 100 / 100
-1 | qubit 14:  X X  X X X XX  |
+1 | qubit 14:  X     XXXXXXXX |
 ===============================================
 Parameters for the current run:
 Number of qubits (n): 15
 Number of runs: 100
 Use Spin: True
-Phase: 1.5
+Phase: 1
 Number of layers: 1
 Verbose mode: False
 ===============================================
-Average number of Ones over 100 runs: 7.41 with standard deviation: 1.7949651807207845. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
-Average number of correlated neighboring qubit pairs over 100 runs: 6.74 with standard deviation: 2.003097601216676. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+Average number of Ones over 100 runs: 7.6 with standard deviation: 1.907878402833892. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 6.7 with standard deviation: 1.7860571099491753. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
 --END OF RUN--
