@@ -1,204 +1,204 @@
 --START OF RUN--
 ---------------------------------------------- 1 / 100
-1 | qubit 24:    X X XXX   XXXX      XX |
+1 | qubit 24:  XX X  XX XX X  X   X  XX | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 2 / 100
-1 | qubit 24:  XXXX  X      X   X XXX X |
+1 | qubit 24: X   XXXXXX  XX X X X  X X | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 3 / 100
-1 | qubit 24:  X X X  XX   X   XX X XX  |
+1 | qubit 24: X X  X   XX XXXXX XX  XXX | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 4 / 100
-1 | qubit 24:     XX     XXX XXX  XXX X |
+1 | qubit 24: X     X X   XX XX X XXX X | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 5 / 100
-1 | qubit 24:  XX X X     XX  XX    X   |
+1 | qubit 24:         XXX   X    X XX   | V(0.28) = a(0.5) + d(-0.22) 
 ---------------------------------------------- 6 / 100
-1 | qubit 24:  X XXX XXX X X XX X  XX X |
+1 | qubit 24: XXXX XX  X XXXX   X       | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 7 / 100
-1 | qubit 24: X XX     X  XX X  XX  XX  |
+1 | qubit 24:   XXXXXXX XXX X    X      | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 8 / 100
-1 | qubit 24: X XX    X  X XX  X  XXXXX |
+1 | qubit 24: X    X   XXXX  X  XX    X | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 9 / 100
-1 | qubit 24:    XXXX    XX X  XX X  XX |
+1 | qubit 24: XX XX  X  XX   X    X  X  | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 10 / 100
-1 | qubit 24:  XX  XX   XXX  X XX X  XX |
+1 | qubit 24:  XX  XXX X X   X X  X  XX | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 11 / 100
-1 | qubit 24: XX X XX XX X  XX X XX XXX |
+1 | qubit 24:  X  XX X  X XXXX X XX   X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 12 / 100
-1 | qubit 24:  XX X XX  X   X    X XX   |
+1 | qubit 24: X XXXXXX    XX X  X XXXXX | V(0.64) = a(0.5) + d(0.14) 
 ---------------------------------------------- 13 / 100
-1 | qubit 24:  X XXXX XX    XXXXXXX  X  |
+1 | qubit 24: XX  XX X     XXXXX XX XXX | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 14 / 100
-1 | qubit 24: X XXX X X  X X  XX  X  X  |
+1 | qubit 24:       X   XX XX  XX     X | V(0.32) = a(0.5) + d(-0.18) 
 ---------------------------------------------- 15 / 100
-1 | qubit 24:    XXX X   X X  XXX  X    |
+1 | qubit 24:    XX XXXX X   X X   XX X | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 16 / 100
-1 | qubit 24: XXXXXX X   XX     X  XX X |
+1 | qubit 24: X XX  XXX   X XXXXX XXX   | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 17 / 100
-1 | qubit 24: X   X XXX X X  XXXX X XXX |
+1 | qubit 24:   X   X  XXXXXXXX  XXX    | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 18 / 100
-1 | qubit 24: X XXXXX   X  X X  X  X X  |
+1 | qubit 24: X X  X  XX X  X   X  XX   | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 19 / 100
-1 | qubit 24:  X X  XXX X     XX  XXX X |
+1 | qubit 24:    XXXXX  X X X   X  XX X | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 20 / 100
-1 | qubit 24: X XX      X X  X XX  X    |
+1 | qubit 24:    X         X    XXXXX X | V(0.32) = a(0.5) + d(-0.18) 
 ---------------------------------------------- 21 / 100
-1 | qubit 24:    X    XX XXX  X  XX XXX |
+1 | qubit 24:  X XX XXX   X  XX    XXXX | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 22 / 100
-1 | qubit 24: XX X  XXX  XX  XX XXXX XX |
+1 | qubit 24: XX XXXXXXX   X XXXXXX XXX | V(0.76) = a(0.5) + d(0.26) 
 ---------------------------------------------- 23 / 100
-1 | qubit 24: XXXX  X XX X  X    XX XXX |
+1 | qubit 24: XX X  XXX  X     XX XX X  | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 24 / 100
-1 | qubit 24: X    X  XXX  XXXXXXX X XX |
+1 | qubit 24:  X   XX   XXXX  XX XX     | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 25 / 100
-1 | qubit 24:        X      XX XX XXXXX |
+1 | qubit 24:  XX   X XX X XX     X   X | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 26 / 100
-1 | qubit 24: X   XX X   X X   X   XXX  |
+1 | qubit 24: XXX  XXXXXXXXXXXX  X      | V(0.64) = a(0.5) + d(0.14) 
 ---------------------------------------------- 27 / 100
-1 | qubit 24:   XXXXXXXX X   XXXX X XXX |
+1 | qubit 24:     XXXX  XXXX  XX X   X  | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 28 / 100
-1 | qubit 24: XXX  XXX XX  X   X XXXX X |
+1 | qubit 24: XX X  X X XXXX   XX    XX | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 29 / 100
-1 | qubit 24: XXXX X XXXX X XX XX X X   |
+1 | qubit 24: XX   X  X XX  XX   XX   X | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 30 / 100
-1 | qubit 24:  X  X XXXX XXX X       X  |
+1 | qubit 24:   X XXX    X X  X  XXX    | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 31 / 100
-1 | qubit 24:  X  X   X XX X X        X |
+1 | qubit 24: X         XXX  XXXX XXXX  | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 32 / 100
-1 | qubit 24:        X  XX XXXXXX  X XX |
+1 | qubit 24: X     X XXX   X  X XXXXXX | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 33 / 100
-1 | qubit 24:  XX   X XXX XXXX XXXX XX  |
+1 | qubit 24:   XX X XXX XX  XXX  XXXXX | V(0.64) = a(0.5) + d(0.14) 
 ---------------------------------------------- 34 / 100
-1 | qubit 24: X  XXX X  X X X     X     |
+1 | qubit 24: XX X XXXXX X    X         | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 35 / 100
-1 | qubit 24:   XX XX  XXX X X      X   |
+1 | qubit 24: XX  XXX  X XX  XX  X  X   | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 36 / 100
-1 | qubit 24:  XX X X  X  XXXX  X  XXXX |
+1 | qubit 24: XX   X  X XX   XXXXXX XX  | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 37 / 100
-1 | qubit 24:  X    X X    X X  X XX X  |
+1 | qubit 24: XXXXXX XX   XXX X  X X X  | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 38 / 100
-1 | qubit 24:   XXX      X X XX X XXXXX |
+1 | qubit 24: X XX  XXXX X   X   XX XX  | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 39 / 100
-1 | qubit 24:     X XXXX X XX   X XX  X |
+1 | qubit 24: XXXX XX X X    X XX X  X  | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 40 / 100
-1 | qubit 24: XXX      XX XXX X XX   X  |
+1 | qubit 24: X XXX XXX X    XXXXXXXXX  | V(0.68) = a(0.5) + d(0.18) 
 ---------------------------------------------- 41 / 100
-1 | qubit 24: XXXXX      XXX  XXXXXX  X |
+1 | qubit 24: X      XXXX XX XXXXX    X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 42 / 100
-1 | qubit 24:   X X X XX XX X   X  XX   |
+1 | qubit 24: XX XXX X  XX    X  X   X  | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 43 / 100
-1 | qubit 24: XXX   XX XXXX X   X    X  |
+1 | qubit 24: XXX   XX  XXX X X       X | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 44 / 100
-1 | qubit 24:   X XX  XX   XX   X     X |
+1 | qubit 24: XX XX   XXX XX XX  XX  XX | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 45 / 100
-1 | qubit 24:    X X  XXXX XX    XXX X  |
+1 | qubit 24: X X XX  XX  XX XX XXX XXX | V(0.64) = a(0.5) + d(0.14) 
 ---------------------------------------------- 46 / 100
-1 | qubit 24: X XX   XXXXXX XXX X X XXX |
+1 | qubit 24:  X  X     X X XX X  XX X  | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 47 / 100
-1 | qubit 24:   XXX  XX XXXXXXX     X X |
+1 | qubit 24:  XXXX   XXXX   XX  XX X X | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 48 / 100
-1 | qubit 24: X X XXX X  XX  XXX    X   |
+1 | qubit 24:  XX X XX XX X  XXXX XX    | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 49 / 100
-1 | qubit 24: XXXXXX X XXX  XXX  XX  X  |
+1 | qubit 24:  XXXX     XXX X  XX    XX | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 50 / 100
-1 | qubit 24: XXXXXXXXX X  X  XX   X XX |
+1 | qubit 24:   X XX XXXX  XXXXXX XXX X | V(0.68) = a(0.5) + d(0.18) 
 ---------------------------------------------- 51 / 100
-1 | qubit 24:   XXX XXX XXX XXX  X XXXX |
+1 | qubit 24: X    X X X  XX X   XXX  X | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 52 / 100
-1 | qubit 24:   X X    XX X    X  X XXX |
+1 | qubit 24: XXXX   X XXXX XXXX XXXXX  | V(0.72) = a(0.5) + d(0.22) 
 ---------------------------------------------- 53 / 100
-1 | qubit 24:   X   XX     XX XX X   XX |
+1 | qubit 24:  X X X  XXXXX  X XX X     | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 54 / 100
-1 | qubit 24: X X  XX    X   XXX XXXXXX |
+1 | qubit 24:   XX  X XXXX  XXXX  X XX  | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 55 / 100
-1 | qubit 24: X XX  XXXXX  XX  XX  X X  |
+1 | qubit 24: XX X XX  XX  X  X X  X  X | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 56 / 100
-1 | qubit 24: XX   XX  X  XXX  XX X     |
+1 | qubit 24:  XX  X XX X   XX X   XX X | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 57 / 100
-1 | qubit 24: XXXXX X  X X XX XX  X X   |
+1 | qubit 24:       X     XX XXXX  X X  | V(0.36) = a(0.5) + d(-0.14) 
 ---------------------------------------------- 58 / 100
-1 | qubit 24:   X  XX X XXXXXX   XX X   |
+1 | qubit 24:      XX   X  X X XX XX  X | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 59 / 100
-1 | qubit 24:    X X  XX X  XXX XX X  X |
+1 | qubit 24: X     X  X XX X           | V(0.24) = a(0.5) + d(-0.26) 
 ---------------------------------------------- 60 / 100
-1 | qubit 24:      X  X X XX X XX X   X |
+1 | qubit 24: XX   XX XXX XXX     XXXX  | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 61 / 100
-1 | qubit 24:   XXXXX X    X  XXX X X   |
+1 | qubit 24:       X     X      XXX XX | V(0.28) = a(0.5) + d(-0.22) 
 ---------------------------------------------- 62 / 100
-1 | qubit 24: XX   XX XX X  XX  XX XXX  |
+1 | qubit 24:   XXXXXXX XXXX   XXX    X | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 63 / 100
-1 | qubit 24:  XX  XX  XX XX XXXXXX   X |
+1 | qubit 24:  XXX X XX XXX    XXX  XXX | V(0.6) = a(0.5) + d(0.1) 
 ---------------------------------------------- 64 / 100
-1 | qubit 24:  XX   X XXXXX X    X  XXX |
+1 | qubit 24:    XX  X X XX  XXX   X  X | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 65 / 100
-1 | qubit 24:  X X X XX X XX X XXXXX  X |
+1 | qubit 24: X X XX     X  X   X X X X | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 66 / 100
-1 | qubit 24:   XXX X  XX   X  X XX  X  |
+1 | qubit 24:  XXX  X  XX XX  X  XXX  X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 67 / 100
-1 | qubit 24: X         X X   X    X    |
+1 | qubit 24: X XXX  X  XX XXX  X XX    | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 68 / 100
-1 | qubit 24: XX X X  X X XXXXX  X X XX |
+1 | qubit 24: XXXX XXX XXX X XXX  X  XX | V(0.68) = a(0.5) + d(0.18) 
 ---------------------------------------------- 69 / 100
-1 | qubit 24: X X  X X  X XX X  X X XX  |
+1 | qubit 24:   X  X  XXX     XXX XX X  | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 70 / 100
-1 | qubit 24:  XXXXXXXXX   XX XXX X  X  |
+1 | qubit 24:   X   X XXX XXX X X XX  X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 71 / 100
-1 | qubit 24: X XXX     XXXX X  XX XXX  |
+1 | qubit 24:     XXXX   XXXXX  XXXXXXX | V(0.64) = a(0.5) + d(0.14) 
 ---------------------------------------------- 72 / 100
-1 | qubit 24:   XXX          X   X XXX  |
+1 | qubit 24:   X  XX X X      XXXXX XX | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 73 / 100
-1 | qubit 24: X  XXX XXXXX    X XXX   X |
+1 | qubit 24: XX     X X X XXX XX  XX X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 74 / 100
-1 | qubit 24:    XXXXXXX    X XXX X XXX |
+1 | qubit 24: XX X XX XX X XX    XXXX   | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 75 / 100
-1 | qubit 24:  XX  XXXX X  X  X  X    X |
+1 | qubit 24: XXXX  X X  X XXX XX    XX | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 76 / 100
-1 | qubit 24:    X  X X X  XXXX   X   X |
+1 | qubit 24: X X  XXX XX   X XX  X X X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 77 / 100
-1 | qubit 24:   X X   X  XX X   XXXXXX  |
+1 | qubit 24: XX XXX XXX    X X     XXX | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 78 / 100
-1 | qubit 24:  XXX   XXX  XXX  XX XX  X |
+1 | qubit 24:   X  X      X        XXX  | V(0.24) = a(0.5) + d(-0.26) 
 ---------------------------------------------- 79 / 100
-1 | qubit 24:  XXXX X XXXX X  X XX X X  |
+1 | qubit 24:  XXX XX X  XXXXX      XXX | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 80 / 100
-1 | qubit 24: XX    X X  XXXXX   X   XX |
+1 | qubit 24: XX  X X  X XXXXX  XXXXXXX | V(0.68) = a(0.5) + d(0.18) 
 ---------------------------------------------- 81 / 100
-1 | qubit 24:   XX X XXXX  X X X  X  X  |
+1 | qubit 24:  XX XXX XX XXXXXXXX  XX X | V(0.72) = a(0.5) + d(0.22) 
 ---------------------------------------------- 82 / 100
-1 | qubit 24: XXXX X  X XX X     X   XX |
+1 | qubit 24: XX X X X XX XX  X XX XX   | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 83 / 100
-1 | qubit 24:  X X  X X X    XX  XXX    |
+1 | qubit 24: X X      XX XX XXXX X XXX | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 84 / 100
-1 | qubit 24: XXXX  X X X XXX XXXX  X X |
+1 | qubit 24: X    XXXXXXXXX X      XXX | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 85 / 100
-1 | qubit 24:   XXXXXXXXXX XXXXXX  X  X |
+1 | qubit 24:        XXXX        XXX X  | V(0.32) = a(0.5) + d(-0.18) 
 ---------------------------------------------- 86 / 100
-1 | qubit 24:      X XX XX  X   X  XX   |
+1 | qubit 24: X   X    XXX XX   XX  XXX | V(0.48) = a(0.5) + d(-0.02) 
 ---------------------------------------------- 87 / 100
-1 | qubit 24:  XX  X  X   XX  XX    XX  |
+1 | qubit 24:  XXXXXX       X      XXX  | V(0.4) = a(0.5) + d(-0.1) 
 ---------------------------------------------- 88 / 100
-1 | qubit 24:  XX   XXX X  XX  X XX     |
+1 | qubit 24: XX     XXXXX     X XXXX X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 89 / 100
-1 | qubit 24:  XX X XXXX   X  XXXXXXXXX |
+1 | qubit 24:      XX  XX X XX XXX  XXX | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 90 / 100
-1 | qubit 24:    XXXX XXXX  X X X   X   |
+1 | qubit 24: XX XX   X X X   X XXXX X  | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 91 / 100
-1 | qubit 24:    X  X XX XX XXX XX   X  |
+1 | qubit 24: XX   X X    XXXXX  X X    | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 92 / 100
-1 | qubit 24: XXXX XXX X   X XXX  X X   |
+1 | qubit 24: XXXX X X XXXXX   XXXXXX   | V(0.68) = a(0.5) + d(0.18) 
 ---------------------------------------------- 93 / 100
-1 | qubit 24:    XXX XXX X  X  XX XX  X |
+1 | qubit 24: XXXX XXX   X  XXX  X    X | V(0.52) = a(0.5) + d(0.02) 
 ---------------------------------------------- 94 / 100
-1 | qubit 24: XX X  XX X  XX X  X XXX   |
+1 | qubit 24: X    XXX X X XXX   XXXXX  | V(0.56) = a(0.5) + d(0.06) 
 ---------------------------------------------- 95 / 100
-1 | qubit 24: XXXXXX XXX   XXXX X XXX   |
+1 | qubit 24:     X X X     X XX XX XXX | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 96 / 100
-1 | qubit 24:   XX  X X XXXX X X  XX  X |
+1 | qubit 24:         XX  X X XX XX X   | V(0.36) = a(0.5) + d(-0.14) 
 ---------------------------------------------- 97 / 100
-1 | qubit 24:    X XX XX XXXX X XX  XX  |
+1 | qubit 24: X  XX          X  XXXX X  | V(0.36) = a(0.5) + d(-0.14) 
 ---------------------------------------------- 98 / 100
-1 | qubit 24:  XX    XX X    X   X X XX |
+1 | qubit 24:  X    XXX  XX   X X  XX X | V(0.44) = a(0.5) + d(-0.06) 
 ---------------------------------------------- 99 / 100
-1 | qubit 24:  X       XXXX    X  XX X  |
+1 | qubit 24:       XXXXX     XX    X X | V(0.36) = a(0.5) + d(-0.14) 
 ---------------------------------------------- 100 / 100
-1 | qubit 24: XX XXX X X X  XXXX X XXXX |
+1 | qubit 24:   X   X  X  X  XXX   X  X | V(0.36) = a(0.5) + d(-0.14) 
 ===============================================
 Parameters for the current run:
 Number of qubits (n): 25
@@ -208,7 +208,7 @@ Phase: 1
 Number of layers: 1
 Verbose mode: False
 ===============================================
-Average number of Ones over 100 runs: 12.64 with standard deviation: 2.512050954897213. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
-Average number of correlated neighboring qubit pairs over 100 runs: 11.75 with standard deviation: 2.4015619917045656. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
-The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+Average number of Ones over 100 runs: 12.5 with standard deviation: 2.6438608132804573. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 12.78 with standard deviation: 2.733422762764663. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
 --END OF RUN--

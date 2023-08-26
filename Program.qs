@@ -3,9 +3,12 @@
     open Microsoft.Quantum.Intrinsic;
 
     @EntryPoint()
-    operation RunExperiment(exp: String, runs: Int, n: Int, t: Double, spin: Bool,  phase: Double,  layers: Int, verbose: Bool) : Unit {
+    operation RunExperiment(exp: String, runs: Int, n: Int, t: Double, spin: Bool,  phase: Double,  layers: Int, verbose: Bool, csv: Bool) : Unit {
         
-        Message("--START OF RUN--");
+        if (!csv) {
+            Message("--START OF RUN--");
+        }
+        
         // Check for default values
         if (exp == "VacuumAlphaDelta") {
             VacuumAlphaDeltaExperiment(runs);
@@ -17,7 +20,7 @@
             MultiQubitVacuumInteraction(runs, t, n);
         }
         if (exp == "Wormholes") {
-            Wormholes(n, runs, spin, phase, layers, verbose);
+            Wormholes(n, runs, spin, phase, layers, verbose, csv);
         }
         if (exp == "EntanglementSwapping") {
             EntanglementSwapping();
@@ -25,6 +28,8 @@
         if (exp == "VacuumShielding") {
             VacuumShielding(runs, t);
         }
-        Message("--END OF RUN--");
+        if (!csv) {
+            Message("--END OF RUN--");
+		}
     }
 }

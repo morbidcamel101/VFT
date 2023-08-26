@@ -6,19 +6,21 @@
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
 
-    operation Wormholes(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool) : Unit {
+    operation Wormholes(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool, csv: Bool) : Unit {
         
         mutable onesData = [0, size = numRuns];
         mutable correlatedPairsData = [0, size = numRuns];
 
         for run in 1..numRuns {
-            if (verbose) {
-                Message($"Run {run} of {numRuns}...");
+            
+            if (!csv) {
+                if (verbose) {
+                    Message($"Run {run} of {numRuns}...");
+                }
+                else {
+                    Message($"---------------------------------------------- {run} / {numRuns}");
+                }
             }
-            else {
-                Message($"---------------------------------------------- {run} / {numRuns}");
-            }
-
 
             // Create a lattice with multiple layers
             use qubits = Qubit[n * layers]; // Allocate qubits for all layers at once
@@ -45,20 +47,24 @@
                 let endQubitIndex = startQubitIndex + n - 1;
                 let currentLayerQubits = qubits[startQubitIndex..endQubitIndex];
 
-                
-                
                 // Measure and analyze the current layer
-                let (results, flagPattern) = MeasureWormhole(currentLayerQubits, layer, verbose);
+                let (results, flagPattern, V, alpha, delta, Vn, alphaN, deltaN) = MeasureWormhole(currentLayerQubits, layer, verbose);
 
                 let onesCount = Count(EqualToOne, results);
                 set onesData w/= run-1 <- onesCount;
 
                 let correlatedPairs = CountCorrelatedPairs(results);
                 set correlatedPairsData w/= run-1 <- correlatedPairs; 
+
+                if (!csv) {
+                    Message($"{layer} | qubit {Length(results)-1}: {flagPattern} | V({Vn}) = a({alphaN}) + d({deltaN}) ");
+                }
+                else {
+                    // Experiment,Run,Qubits,Layers,Spin,Phase
+                    Message($"Wormholes,{run},{Length(results)},{layers},{layer},{useSpin},{phase},{flagPattern},{onesCount},{correlatedPairs},{V},{alpha},{delta},{Vn},{alphaN},{deltaN}");
+                }
 			}
         }
-
-        PrintParameters(n, numRuns, useSpin, phase, layers, verbose);
 
         // Compute mean and standard deviation
         let meanOnes = Mean(onesData);
@@ -67,16 +73,20 @@
         let meanCorrelatedPairs = Mean(correlatedPairsData);
         let stdDevCorrelatedPairs = StdDev(correlatedPairsData, meanCorrelatedPairs);
 
-        Message($"Average number of Ones over {numRuns} runs: {meanOnes} with standard deviation: {stdDevOnes}. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.");
-        Message($"Average number of correlated neighboring qubit pairs over {numRuns} runs: {meanCorrelatedPairs} with standard deviation: {stdDevCorrelatedPairs}. This suggests the interactions or correlations between v-bosons in the quantum vacuum.");
+        if (!csv) {
+            PrintParameters(n, numRuns, useSpin, phase, layers, verbose);
 
-        if (meanOnes > IntAsDouble(n) / 2.0) {
-            Message("The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.");
+            Message($"Average number of Ones over {numRuns} runs: {meanOnes} with standard deviation: {stdDevOnes}. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.");
+            Message($"Average number of correlated neighboring qubit pairs over {numRuns} runs: {meanCorrelatedPairs} with standard deviation: {stdDevCorrelatedPairs}. This suggests the interactions or correlations between v-bosons in the quantum vacuum.");
+
+            if (meanOnes > IntAsDouble(n) / 2.0) {
+                Message("The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.");
+            }
+
+            if (meanCorrelatedPairs > IntAsDouble(n) / 2.0) {
+                Message("The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.");
+            }        
         }
-
-        if (meanCorrelatedPairs > IntAsDouble(n) / 2.0) {
-            Message("The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.");
-        }        
     }
 
     operation CreateWormholeWithSpacing(qubits: Qubit[], phase: Double, useSpin: Bool,  verbose: Bool) : Unit {
@@ -112,7 +122,7 @@
         }
     }
 
-    operation MeasureWormhole(qubits: Qubit[], layer: Int, verbose: Bool) : (Result[], String) {
+    operation MeasureWormhole(qubits: Qubit[], layer: Int, verbose: Bool) : (Result[], String, Double, Double, Double, Double, Double, Double) {
         mutable results = [Zero, size = Length(qubits)];
         mutable flagPattern = "";
         if (verbose) {
@@ -124,12 +134,12 @@
             if (measurementResult == One) {
                 set flagPattern += "X";
             } else {
-                set flagPattern += " ";
+                set flagPattern += ".";
             } 
         }
-        let (V, alpha, delta) = MeasureVacuumEnergyNormalized(qubits);
-        Message($"{layer} | qubit {Length(qubits)-1}: {flagPattern} | V({V}) = a({alpha}) + d({delta}) ");
-        return (results, flagPattern);
+        let (V, alpha, delta) = MeasureVacuumEnergy(qubits);
+        let (Vn, alphaN, deltaN) = MeasureVacuumEnergyNormalized(qubits);
+        return (results, flagPattern, V, alpha, delta, Vn, alphaN, deltaN);
     }
 
     operation PrintParameters(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool) : Unit {

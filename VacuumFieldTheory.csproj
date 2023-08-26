@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <BondCodegen Remove="Images\**" />
+    <Compile Remove="Images\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <QSharpCompile Remove="Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Experiment\Analysis\FoamyExperiments.md" />
     <Content Include="Experiment\Analysis\Wormholes1.md" />
     <Content Include="Experiment\Results\Wormholes.txt" />
@@ -54,13 +61,11 @@
   <ItemGroup>
     <None Include="Experiment\Analysis\HiggsMysteries.md" />
     <None Include="Experiment\Analysis\Wormholes2.md" />
+    <None Include="Experiment\Results\Wormholes.csv" />
     <None Include="Experiment\VacuumShielding.bat" />
+    <None Include="Experiment\Wormholes_CSV.bat" />
     <None Include="Experiment\Wormholes.bat" />
     <None Include="README.md" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Images\" />
   </ItemGroup>
 
 </Project>
