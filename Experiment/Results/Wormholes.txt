@@ -1,0 +1,137 @@
+﻿===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: False
+Phase: 0
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 9.92 with standard deviation: 2.674621468544661. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 9.85 with standard deviation: 2.089856454400637. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: True
+Phase: 0
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 9.96 with standard deviation: 2.262388118780684. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 9.97 with standard deviation: 2.1838269162184076. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: False
+Phase: 0.5
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 10.3 with standard deviation: 2.304343724360582. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 10.09 with standard deviation: 2.240959615878877. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: True
+Phase: 0.5
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 10.25 with standard deviation: 2.3339880033967613. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 10.14 with standard deviation: 1.918436863699194. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 10
+Number of runs: 100
+Use Spin: True
+Phase: 0
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 5.08 with standard deviation: 1.610465771135792. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 4.87 with standard deviation: 1.6288339387426827. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: False
+Phase: 1
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 10.18 with standard deviation: 1.829644774266306. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 9.88 with standard deviation: 2.1876014262200507. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: True
+Phase: 1
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 9.97 with standard deviation: 2.401895085135902. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 10.03 with standard deviation: 2.1187496312684044. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 10
+Number of runs: 100
+Use Spin: False
+Phase: 0
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 5.08 with standard deviation: 1.653360214835231. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 5.05 with standard deviation: 1.465435088975284. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 10
+Number of runs: 100
+Use Spin: False
+Phase: 0.5
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 5.24 with standard deviation: 1.7211623979160127. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 5.04 with standard deviation: 1.2483589227461789. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+The higher than expected number of correlated pairs indicates stronger interactions or correlations between v-bosons, supporting the VFT hypothesis.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 10
+Number of runs: 100
+Use Spin: True
+Phase: 0.5
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 4.98 with standard deviation: 1.6791664598841889. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 4.89 with standard deviation: 1.4205280708243684. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+===============================================
+Parameters for the current run:
+Number of qubits (n): 20
+Number of runs: 100
+Use Spin: True
+Phase: 0.5
+Number of layers: 1
+Verbose mode: False
+===============================================
+Average number of Ones over 100 runs: 10.21 with standard deviation: 1.9508716000803337. This indicates the average 'density' or 'population' of v-bosons in the quantum vacuum.
+Average number of correlated neighboring qubit pairs over 100 runs: 9.85 with standard deviation: 2.169677395374714. This suggests the interactions or correlations between v-bosons in the quantum vacuum.
+The higher than expected average number of Ones suggests a more 'active' vacuum with increased v-boson activity.
+
+----- 13 -------
+
+

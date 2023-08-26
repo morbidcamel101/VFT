@@ -1,4 +1,4 @@
-﻿namespace Quantum.VacuumFieldTheory {
+﻿namespace VFT {
 
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
@@ -48,8 +48,7 @@
         return bellResults;
     }
 
-    //@EntryPoint()
-    operation RunWormholeExperiment() : Unit {
+    operation EntanglementSwapping() : Unit {
         let results = EntanglementSwappingExperiment();
         Message($"Results of the Bell test on A2 and B2: {results}");
         

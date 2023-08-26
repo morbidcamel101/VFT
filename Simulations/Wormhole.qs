@@ -1,4 +1,4 @@
-﻿namespace Quantum.VacuumFieldTheory {
+﻿namespace VFT {
 
     open Microsoft.Quantum.Convert;
     open Microsoft.Quantum.Arrays;
@@ -6,8 +6,7 @@
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Math;
 
-    //@EntryPoint()
-    operation RunExperiment(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool) : Unit {
+    operation Wormholes(n: Int, numRuns: Int, useSpin: Bool, phase: Double, layers: Int, verbose: Bool) : Unit {
         
         mutable onesData = [0, size = numRuns];
         mutable correlatedPairsData = [0, size = numRuns];

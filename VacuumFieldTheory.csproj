@@ -6,12 +6,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Experiment.md" />
+    <Content Include="Experiment\Analysis\FoamyExperiments.md" />
+    <Content Include="Experiment\Analysis\Wormholes1.md" />
+    <Content Include="Experiment\Results\Wormholes.txt" />
+    <Content Include="Experiment\Results\Wormholes_01.txt" />
+    <Content Include="Experiment\Results\Wormholes_02.txt" />
+    <Content Include="Experiment\Results\Wormholes_03.txt" />
+    <Content Include="Experiment\Results\Wormholes_04.txt" />
+    <Content Include="Experiment\Results\Wormholes_05.txt" />
+    <Content Include="Experiment\Results\Wormholes_06.txt" />
+    <Content Include="Experiment\Results\Wormholes_07.txt" />
+    <Content Include="Experiment\Results\Wormholes_08.txt" />
+    <Content Include="Experiment\Results\Wormholes_09.txt" />
+    <Content Include="Experiment\Results\Wormholes_10.txt" />
+    <Content Include="Experiment\Results\Wormholes_11.txt" />
+    <Content Include="Experiment\Results\Wormholes_12.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Experiment2.md" />
-    <None Include="VFT_Experiments.bat" />
+    <None Include="Experiment\Analysis\Wormholes2.md" />
+    <None Include="Experiment\VacuumShielding.bat" />
+    <None Include="Experiment\Wormholes.bat" />
   </ItemGroup>
 
 </Project>

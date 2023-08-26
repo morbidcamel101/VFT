@@ -1,0 +1,18 @@
+'--exp' was not matched. Did you mean '--help'?
+'-n' was not matched. Did you mean '-h'?
+'25' was not matched. Did you mean '-h'?
+'100' was not matched. Did you mean '-h'?
+'0' was not matched. Did you mean 'h'?
+'1' was not matched. Did you mean 'h'?
+'-t' was not matched. Did you mean '-h'?
+'-1' was not matched. Did you mean '-h'?
+Usage:
+  VacuumFieldTheory [options] [command]
+
+Options:
+  --version         Show version information
+  -?, -h, --help    Show help and usage information
+
+Commands:
+  simulate    (default) Run the program using a local simulator.
+
