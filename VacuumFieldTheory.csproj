@@ -59,4 +59,8 @@
     <None Include="README.md" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>
