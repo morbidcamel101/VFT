@@ -10,6 +10,7 @@ echo Experiment,Id,Run,Qubits,Layers,Layer,Spin,Phase,FlagPattern,OnesCount,Corr
 
 REM Initialize experiment ID
 set id=0
+set runs=1000
 
 REM Loop through qubit counts
 for %%q in (5,10,15,20) do (
@@ -22,7 +23,7 @@ for %%q in (5,10,15,20) do (
             
             echo Running Experiment #!id!...
             echo "--id !id! -n %%q --runs 100 --spin %%s --phase %%p --layers 1 -t -1 "
-            VacuumFieldTheory --exp Wormholes --id !id! -n %%q --runs 100 --spin %%s --phase %%p --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
+            VacuumFieldTheory --exp Wormholes --id !id! -n %%q --runs !runs! --spin %%s --phase %%p --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
             echo --------------------------------------------
         )
     )
