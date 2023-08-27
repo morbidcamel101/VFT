@@ -23,6 +23,7 @@
     <None Include="Experiment\Analysis\Wormholes2.md" />
     <None Include="Experiment\Results\Wormholes.csv" />
     <None Include="Experiment\VacuumShielding.bat" />
+    <None Include="Experiment\Analysis\Wormholes.md" />
     <None Include="Experiment\Wormholes_CSV.bat" />
     <None Include="Experiment\Wormholes.bat" />
     <None Include="README.md" />

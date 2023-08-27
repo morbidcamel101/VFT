@@ -22,7 +22,7 @@ for %%q in (5,10,15,20) do (
             set /a id+=1
             
             echo Running Experiment #!id!...
-            echo "--id !id! -n %%q --runs 100 --spin %%s --phase %%p --layers 1 -t -1 "
+            echo "--id !id! -n %%q --runs !runs! --spin %%s --phase %%p --layers 1 -t -1 "
             VacuumFieldTheory --exp Wormholes --id !id! -n %%q --runs !runs! --spin %%s --phase %%p --layers 1 -t -1 --verbose false --csv true >> ..\..\..\Experiment\Results\Wormholes.csv
             echo --------------------------------------------
         )
