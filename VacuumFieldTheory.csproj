@@ -16,46 +16,6 @@
     <Content Include="Experiment\Analysis\FoamyExperiments.md" />
     <Content Include="Experiment\Analysis\Wormholes1.md" />
     <Content Include="Experiment\Results\Wormholes.txt" />
-    <Content Include="Experiment\Results\Wormholes_01.txt" />
-    <Content Include="Experiment\Results\Wormholes_02.txt" />
-    <Content Include="Experiment\Results\Wormholes_03.txt" />
-    <Content Include="Experiment\Results\Wormholes_04.txt" />
-    <Content Include="Experiment\Results\Wormholes_05.txt" />
-    <Content Include="Experiment\Results\Wormholes_06.txt" />
-    <Content Include="Experiment\Results\Wormholes_07.txt" />
-    <Content Include="Experiment\Results\Wormholes_08.txt" />
-    <Content Include="Experiment\Results\Wormholes_09.txt" />
-    <Content Include="Experiment\Results\Wormholes_10.txt" />
-    <Content Include="Experiment\Results\Wormholes_11.txt" />
-    <Content Include="Experiment\Results\Wormholes_12.txt" />
-    <Content Include="Experiment\Results\Wormholes_13.txt" />
-    <Content Include="Experiment\Results\Wormholes_14.txt" />
-    <Content Include="Experiment\Results\Wormholes_15.txt" />
-    <Content Include="Experiment\Results\Wormholes_16.txt" />
-    <Content Include="Experiment\Results\Wormholes_17.txt" />
-    <Content Include="Experiment\Results\Wormholes_18.txt" />
-    <Content Include="Experiment\Results\Wormholes_19.txt" />
-    <Content Include="Experiment\Results\Wormholes_20.txt" />
-    <Content Include="Experiment\Results\Wormholes_21.txt" />
-    <Content Include="Experiment\Results\Wormholes_22.txt" />
-    <Content Include="Experiment\Results\Wormholes_23.txt" />
-    <Content Include="Experiment\Results\Wormholes_24.txt" />
-    <Content Include="Experiment\Results\Wormholes_25.txt" />
-    <Content Include="Experiment\Results\Wormholes_26.txt" />
-    <Content Include="Experiment\Results\Wormholes_27.txt" />
-    <Content Include="Experiment\Results\Wormholes_28.txt" />
-    <Content Include="Experiment\Results\Wormholes_29.txt" />
-    <Content Include="Experiment\Results\Wormholes_30.txt" />
-    <Content Include="Experiment\Results\Wormholes_31.txt" />
-    <Content Include="Experiment\Results\Wormholes_32.txt" />
-    <Content Include="Experiment\Results\Wormholes_33.txt" />
-    <Content Include="Experiment\Results\Wormholes_34.txt" />
-    <Content Include="Experiment\Results\Wormholes_35.txt" />
-    <Content Include="Experiment\Results\Wormholes_36.txt" />
-    <Content Include="Experiment\Results\Wormholes_37.txt" />
-    <Content Include="Experiment\Results\Wormholes_38.txt" />
-    <Content Include="Experiment\Results\Wormholes_39.txt" />
-    <Content Include="Experiment\Results\Wormholes_40.txt" />
   </ItemGroup>
 
   <ItemGroup>

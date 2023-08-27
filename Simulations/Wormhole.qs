@@ -25,6 +25,10 @@
             // Create a lattice with multiple layers
             use qubits = Qubit[n * layers]; // Allocate qubits for all layers at once
 
+            for i in 0..Length(qubits)-1 {
+                Reset(qubits[i]);
+		    }
+
             // Create the lattice
             for layer in 1..layers {
                 // Create spaced-out wormhole structure for each layer
@@ -93,9 +97,9 @@
         if (verbose) {
             Message("Creating the spaced-out wormhole structure...");
         }
-
+        
         for i in 0..Length(qubits)-1 {
-            Reset(qubits[i]);
+            
             H(qubits[i]);
 
             if (useSpin) {
