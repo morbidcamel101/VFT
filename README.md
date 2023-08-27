@@ -1,6 +1,6 @@
 ﻿# VFT
 
-![APOLLO](https://github.com/morbidcamel101/VFT/blob/master/Images/VFT.jpg)
+![VFT](https://github.com/morbidcamel101/VFT/blob/master/Images/VFT.jpg)
 
 ## Vacuum Field Theory
 #### Posited by Human + AI
