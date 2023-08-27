@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Experiment\Analysis\Decoherence.md" />
     <None Include="Experiment\Analysis\HiggsMysteries.md" />
     <None Include="Experiment\Analysis\Wormholes2.md" />
     <None Include="Experiment\Results\Wormholes.csv" />
