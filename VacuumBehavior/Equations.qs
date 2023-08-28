@@ -18,7 +18,7 @@
         let numQubits = Length(lattice);
 
         // Measure each qubit in the lattice
-        for (q in lattice) {           
+        for q in lattice {           
             // Measure the qubit
             let result = M(q);
             if (result == One) {
@@ -44,7 +44,7 @@
         let maxEnergy = IntAsDouble(numQubits); // Maximum possible energy
 
         // Measure each qubit in the lattice
-        for (q in lattice) {           
+        for q in lattice {           
             // Measure the qubit
             let result = M(q);
             if (result == One) {
