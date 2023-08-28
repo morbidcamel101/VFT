@@ -30,3 +30,5 @@ Given the new data, let's analyze the relationship between the number of qubits 
 5. **Trends in delta**: The `delta` values seem to show a trend where they decrease initially (from 5 to 9 qubits) but then increase (from 10 to 20 qubits). This could be indicative of different regimes of behavior or different sources of noise or interactions becoming dominant.
 
 In conclusion, the data suggests that as the number of qubits in the system increases, there are more interactions (either intentional or due to noise) and potential challenges in maintaining specific quantum states. This aligns with the understanding that managing decoherence becomes a significant challenge in larger quantum systems. However, the specific trends and values would need to be analyzed in the context of the experimental setup, the quantum system's isolation, and the specific quantum processes being implemented.
+
+
